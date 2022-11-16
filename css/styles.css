@@ -1,0 +1,42 @@
+header{
+    width: 1440px;
+    height: 692px;
+    background-attachment: fixed;
+    background-image: url("../assets/coverheader.jpg");
+}
+
+.wrapper{
+    max-width: 1440px;
+}
+
+article{
+    width: 1440px;
+    height: 692px;
+}
+
+#features3{
+    background-color: #252B42;
+    width: 1440px;
+    height: 692px;
+    margin-bottom: 1em;
+}
+
+#features11{
+    width: 1440px;
+    height: 692px;
+}
+
+#section1{
+    height: 409px;
+    background-color: #252B42;
+}
+
+#section2{
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#testimonials{
+    height: 591px;
+    background-color: #252B42;
+}
