@@ -17,7 +17,7 @@ article{
 #features3{
     background-color: #252B42;
     width: 1440px;
-    height: 692px;
+    height: 813px;
     margin-bottom: 1em;
 }
 
@@ -138,4 +138,34 @@ h4{
     align-items: flex-start;
     padding: 0px;
     gap: 10px;
+}
+
+.f3maincontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 1050px;
+    height: 806px;
+    left: 195px;
+}
+
+.f3container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    width: 1050px;
+    height: 190px;;
+}
+
+.f3container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    width: 1046px;
+    height: 416px;
 }
