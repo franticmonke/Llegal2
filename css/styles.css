@@ -96,3 +96,46 @@ h3{
    left: 1201px;
    top: 42px;
 }
+
+.maincontentheader{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 860px;
+    height: 398px;
+    position: absolute;
+    left: 290px;
+    top: 170px;
+}
+
+h1{
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+h4{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.cta{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+}
