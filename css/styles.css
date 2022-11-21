@@ -330,3 +330,110 @@ h2{
     color: #737373;
     margin: 0;
 }
+
+#team{
+    height: 732px;
+    width: 1440px;
+    background-color: #252B42;
+}
+
+.teammaincon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 195px;
+    gap: 80px;
+    width: 1050px;
+    height: 713px;
+}
+
+.teamrow1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 864px;
+    height: 100px;
+    margin-top: 80px;
+}
+
+#teamparagraph{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+.teamrow2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    width: 1046px;
+    height: 373px;
+}
+
+.teamcontentcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 328px;
+    height: 373px;
+    background: #FFFFFF;
+}
+
+#teamprofilephoto{
+    height: 231px;
+}
+
+.teamcardmaincontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 232px;
+    height: 142px;
+}
+
+#h5team{
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+#h6team{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.teamdiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 92px;
+    height: 24px;
+}
