@@ -42,6 +42,7 @@ article{
 #testimonials{
     height: 591px;
     background-color: #252B42;
+    margin-top: 1em;
 }
 
 h3{
@@ -241,4 +242,91 @@ h4{
     line-height: 24px;
     letter-spacing: 0.1px;
     color: #252B42;
+}
+
+.tsmnmaincon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1050px;
+    height: 584px;
+    margin-left: 195px;
+}
+
+.row1tsmn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    margin-top: 80px;
+    width: 864px;
+    height: 100px;
+}
+
+h2{
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+#tsmnparagraph{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.row2tsmn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    width: 1048px;
+    height: 244px;
+    margin-top: 80px;
+}
+
+.tsmncard{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 35px;
+    width: 327px;
+    height: 244px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+}
+
+.tsmncardcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    width: 257px;
+    height: 184px;
+}
+
+#h6tsmn{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin: 0;
 }
