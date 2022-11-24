@@ -2,14 +2,24 @@
 
 header{
     width: 1440px;
-    height: 692px;
+    height: 645px;
     background-attachment: fixed;
     background-image: url("../assets/coverheader.jpg");
 }
 
 .wrapper{
     max-width: 1440px;
-    margin: auto;
+    margin: 0 auto;
+    background-color: #252B42;
+}
+
+.one{
+    background: #252B42;
+}
+
+.header-one{
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 article{
@@ -21,7 +31,6 @@ article{
     background-color: #252B42;
     width: 1440px;
     height: 813px;
-    margin-bottom: 1em;
 }
 
 #features11{
@@ -29,14 +38,124 @@ article{
     height: 692px;
 }
 
-#section1{
+#f11-section1{
     height: 409px;
     background-color: #252B42;
 }
 
-#section2{
+#f11-section2{
     height: 350px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(..//assets/background.svg);
+}
+
+.features11-maincont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 1050px;
+    height: 752px;
+    margin-left: 195px;
+}
+
+.cta{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    width: 347px;
+    height: 48px;
+}
+
+#buttontext-header{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+#button1{
+    background-color: #D0A144;
+    border-radius: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 36px;
+    gap: 10px;
+    width: 182px;
+    height: 48px;
+    border-color: transparent;
+}
+
+#button1:hover{
+    background-color: #252B42;
+    transition: 1s ease-in-out;
+}
+
+#button2{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 36px;
+    gap: 10px;
+    width: 155px;
+    height: 48px;
+    border: 1px solid;
+    border-radius: 37px;
+    background: transparent;
+    border-color: #ffffff;
+}
+
+#button2:hover{
+    background-color: #252B42;
+    transition: 1s ease-in-out;
+}
+
+#features11-row1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 864px;
+    height: 100px;
+    margin-top: 80px;
+}
+
+#features11-row2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 877px;
+    height: 442px;
+    background-image: url(../assets/media\ bg-cover.svg);
+}
+
+#features11-h2{
+    font-family: 'Martel';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+#features11-p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
 }
 
 #testimonials{
@@ -87,6 +206,29 @@ nav{
    margin-left: auto;
 }
 
+.navlist a {
+    display: inline-block;
+    color: #00bfff; /* Цвет обычной ссылки */
+    line-height: 1;
+    text-decoration: none; /* Убираем подчеркивание */
+    cursor: pointer;
+}
+.navlist a:after {
+    background-color: #230651; /* Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 2px; /* Высота линии */
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.navlist a:hover:after,
+.navlist a:focus:after {
+    width: 100%;
+}
+     
+
 .navlist li a{
     text-decoration: none;
     font-family: 'Open Sans';
@@ -114,8 +256,8 @@ nav{
 
 #logo2{
     width: 16px;
-    height: 14.93px;
-    margin-top: 45px;
+    height: 20px;
+    margin-top: 42px;
 }
 
 .maincontentheader{
@@ -605,7 +747,6 @@ h2{
 }
 
 .footer{
-    height: 526px;
     width: 1440px;
     background-color: #252B42;
 }
@@ -693,6 +834,29 @@ h2{
     width: 93px;
     height: 126px;
 }
+
+ #row2-column-div a {
+    display: inline-block;
+    color: #BDBDBD; /* Цвет обычной ссылки */
+    line-height: 1;
+    text-decoration: none; /* Убираем подчеркивание */
+    cursor: pointer;
+}
+ #row2-column-div a:after {
+    background-color: #ffffff; /* Цвет линии при наведении на нее курсора мыши */
+    display: block;
+    content: "";
+    height: 2px; /* Высота линии */
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+ #row2-column-div a:hover:after,
+ #row2-column-div a:focus:after {
+    width: 100%;
+}
+     
 
 #footer-a{
     font-family: 'Open Sans';
